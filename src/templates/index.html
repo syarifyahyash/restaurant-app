@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous"> 
+    <link rel="manifest" href="./app.webmanifest">
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
+    <meta name="theme-color" content="#A79277"/>
+    <link rel="icon" href="/icons/icon-192x192.png" type="image/png" sizes="192x192">
+    
+    <title>Where You Can Eat</title>
+    
+  </head>
+  <body>
+    <header>
+      <a href="#maincontent" class="skip-link" aria-label="Tekan Enter Untuk Skip to Content">Skip to Content</a>
+      <button id="hamburger">☰</button>
+
+      <app-bar></app-bar>
+
+      <app-hero></app-hero>
+    </header>
+
+    <main id="maincontent" tabindex="-1">
+      <div class="wrapper">
+        <div class="container">
+          <section id="resto" class="resto">
+            <div class="title-section">
+              <h2>Daftar Restoran</h2>
+            </div>
+            <section tabindex="0" id="restoList" class="resto-list" aria-label="Tekan Tab untuk Melanjutkan Daftar Restoran">
+            </section>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer-bar></footer-bar>
+  </body>
+</html>
